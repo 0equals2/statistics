@@ -4,7 +4,7 @@
 ####################################
 #
 title: 0equals2
-email:
+email: wkgek93@gmail.com
 description: 0=2 blog
 url: # the base hostname & protocol for your site
 keywords: ["blog", "jekyll"]
@@ -19,6 +19,7 @@ markdown:          kramdown
 highlighter:       rouge
 excerpt_separator: <!--more-->
 permalink:         /articles/:year-:month/:title
+category_dir : category/
 
 kramdown:
   auto_ids: true
@@ -26,7 +27,6 @@ kramdown:
   entity_output: as_char
   toc_levels: 1..6
   enable_coderay: false
-category_dir : category/
 #
 ###################################
 # Site Owner configuration
@@ -37,7 +37,7 @@ owner:
   avatar: img/avatar.png
   job: "A jekyll theme"
   bio: "A simple and awesome blog theme powered by jekyll."
-  email:
+  email: wkgek93@gmail.com
   disqus-shortname:
   twitter: #username
   facebook: #username
