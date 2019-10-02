@@ -18,18 +18,7 @@
       <li class="nav-item">
         <a href="{{ site.url }}{{ page.url }}">{{ page.title }}</a>
       </li>
-      {<div class="sidebar-nav-item">Category</div>
-  <nav class="content-ul">
-    {% for category in site.categories %}
-    <a href="{{ root_url }}/{{ site.category_dir }}#{{ category | first }}"
-       class="sidebar-nav-item pl-3rem">
-                          <span class="name">
-                              {{ category | first }}
-                          </span>
-      <span class="badge">{{ category | last | size }}</span>
-    </a>
-    {% endfor %}
-  </nav>
+      {% endif %} {% endfor %}
     </ul>
   </nav>
   {% include social-links.html %}
