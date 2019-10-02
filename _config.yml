@@ -34,7 +34,7 @@ category_dir : category/
 #
 owner:
   name: 0equals2
-  avatar: avatar.png
+  avatar: img/avatar.png
   job: "A jekyll theme"
   bio: "A simple and awesome blog theme powered by jekyll."
   email:

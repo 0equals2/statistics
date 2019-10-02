@@ -18,13 +18,7 @@
       <li class="nav-item">
         <a href="{{ site.url }}{{ page.url }}">{{ page.title }}</a>
       </li>
-      {% endif %} {% endfor %}
-    </ul>
-  </nav>
-  {% include social-links.html %}
-</div>
-<div>
-  <div class="sidebar-nav-item">Category</div>
+      {<div class="sidebar-nav-item">Category</div>
   <nav class="content-ul">
     {% for category in site.categories %}
     <a href="{{ root_url }}/{{ site.category_dir }}#{{ category | first }}"
@@ -36,4 +30,10 @@
     </a>
     {% endfor %}
   </nav>
+    </ul>
+  </nav>
+  {% include social-links.html %}
+</div>
+<div>
+
 </div>
