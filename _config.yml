@@ -3,9 +3,9 @@
 # Site wide configuration
 ####################################
 #
-title: Leonids
+title: 0equals2
 email:
-description: A simple and awesome blog theme powered by jekyll.
+description: 0=2 blog
 url: # the base hostname & protocol for your site
 keywords: ["blog", "jekyll"]
 
@@ -14,7 +14,7 @@ keywords: ["blog", "jekyll"]
 # Jekyll configuration
 ####################################
 #
-timezone:          Europe/Paris
+timezone:          Asia/Seoul
 markdown:          kramdown
 highlighter:       rouge
 excerpt_separator: <!--more-->
@@ -26,15 +26,15 @@ kramdown:
   entity_output: as_char
   toc_levels: 1..6
   enable_coderay: false
-
+category_dir : category/
 #
 ###################################
 # Site Owner configuration
 ####################################
 #
 owner:
-  name: Leonids
-  avatar: leonids-logo.png
+  name: 0equals2
+  avatar: avatar.png
   job: "A jekyll theme"
   bio: "A simple and awesome blog theme powered by jekyll."
   email:

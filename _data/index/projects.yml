@@ -1,4 +1,14 @@
-- name: leonids
-  descr: "Bacon ipsum dolor sit amet doner meatball jowl short ribs, chicken prosciutto salami frankfurter. Pig drumstick turducken short ribs, brisket meatloaf ham hock shankle andouille corned beef strip steak. Venison ham bresaola strip steak. Pork belly ribeye prosciutto t-bone."
+- name: K-ube
+  descr: "Text mining : analysis of tweets, youtube comments (english)"
   image: pong.png
-  github: https://github.com/renyuanz/leonids
+  github: https://github.com/0equals2/k-ube
+
+- name: Newbit
+  descr: "unsupervised clustering of news articles (korean)"
+  image: pong.png
+  github: https://github.com/0equals2/k-ube
+
+- name: CAU-hackaton-project
+  descr: "휴보강 알림 및 포탈 개선 프로그램"
+  image: pong.png
+  github: https://github.com/0equals2/CAU-hackathon-project
